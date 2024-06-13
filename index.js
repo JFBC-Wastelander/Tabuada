@@ -140,17 +140,17 @@ process.stdin.on("data", function(data){
         case 7:
             let tabuadaSete = []
             let tabuadaDoSete = {
-                zero:"",
-                um:"",
-                dois:"",
-                tres:"",
-                quatro:"",
-                cinco:"",
-                seis:"",
-                sete:"",
-                oito:"",
-                nove:"",
-                dez:"",
+                zero:"7 * 0 = 0",
+                um:"7 * 1 = 7",
+                dois:"7 * 2 = 14",
+                tres:"7 * 3 = 21",
+                quatro:"28",
+                cinco:"35",
+                seis:"42",
+                sete:"49",
+                oito:"56",
+                nove:"63",
+                dez:"70",
             }
             tabuadaSete.push(tabuadaDoSete)
             console.log(tabuadaSete)
